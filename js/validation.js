@@ -9,7 +9,7 @@ var span=document.getElementsByTagName('span');
 
 
     function validate(){
-        const regex1= /^([a-z0-9\.-]+)@(company)\.(in)$/;
+        const regex1= /^([a-z0-9\.-]+)@(christuniversity)\.(in)$/;
         const regex2= /^[a-zA-Z]+$/
         const regex3 = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])([a-z])([a-zA-Z0-9!@#$%^&*])(.*[a-z])?$/;
         const isValidLength = /^.{8,16}$/;
